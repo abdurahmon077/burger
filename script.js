@@ -131,6 +131,7 @@ function vie(p) {
   viewImg.setAttribute('src', imgSrc);
   viewImg.style.height = '85vh';
   viewImg.style.width = 'unset';
+  viewImg.style.objectFit = 'contain';
   view.style.justifyContent = 'center';
   view.style.alignItems = 'center';
   view.style.display = 'flex';
